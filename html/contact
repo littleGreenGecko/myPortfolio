@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/style.css" rel="stylesheet">    
+</head>
+
+<body>
+    <section id="extraMenu">                                  
+        <a href="index.html">About</a>
+        <a href="index.html">Projects</a>
+        <a href="index.html">My skills</a>
+        <a href="index.html">Contact</a>
+    </section>
+    <section class="extraDetails">
+        <p>Let's get in touch</p>
+        <h2>Ewa Baker</h2>
+        <h3>Full Stack Web Developer</h3>
+        <a href="mailto:ewa.baker@yahoo.com?subject=Message from my portfolio"><img src="../css/images/emailIcon.png "></a>
+        <a href="https://github.com/littleGreenGecko " target="_blank "><img src="../css/images/githubIcon.png "></a>
+    </section>       
+</body>
+</html>
