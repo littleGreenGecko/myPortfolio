@@ -12,6 +12,7 @@ body {
     opacity: 0.9; 
 } 
 
+
 /* For Phones, max.600px and down */
 .navbar {
     overflow: hidden;
@@ -200,4 +201,62 @@ footer p {
     background-color: rgb(41, 49, 41);
 }
 
- 
+
+ /* For landscape-Phones, portrait-Tablets , 600px and up */  
+@media only screen and (min-width:600px) {
+    .navbar a {
+        letter-spacing: 2px;
+    }
+    
+    h1 {
+        font-size: 6rem;
+        letter-spacing: 3px;
+    }
+    
+    header {
+        border: none;
+    }
+    
+    header p {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 3rem;
+        padding-bottom: 10px;
+    }
+    
+    .project{
+        display: flex;        
+        justify-content: space-evenly;
+    }
+    
+    .description {
+        width: 350px; 
+        letter-spacing: 1px;      
+    }
+    
+    .img {
+        left: 140px;
+    }
+    
+    #skills  {
+        height: 120px;      
+    }
+
+    .extraMenu {        
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 18px;
+        letter-spacing: 1px;
+        padding-bottom: 20px;
+    }
+    
+    .extraDetails {
+        margin-top: 30px;
+    }
+    
+    .extraDetails h2{
+        margin: 10px;
+    }
+}
