@@ -307,3 +307,85 @@ footer p {
         width: 60%;
         padding: 40px 0 40px;
     }
+
+    #projects p {
+        width: 60%;
+    }
+    
+    .project {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-auto-rows: minmax(100px, auto);
+        grid-template-areas: 
+        '.  top top .  '
+        'left left right right '
+        'left left right right '
+        'left left right right ';
+        justify-content: center;
+        padding: 20px;
+        background-color: rgb(41, 49, 41);
+        border-radius: 10px;
+    }
+    
+    .project h3 {
+        grid-area: top;
+        justify-self: center;    
+        font-size: 30px;
+        padding: 10px;
+        color: rgb(127, 150, 124);         
+    }
+    
+    .img {
+        display:block;
+        position: relative;
+        grid-area: left;
+        justify-self: center;
+        opacity: 0.8;
+        border: 10px solid rgb(25, 32, 25);   
+        left: 60px;
+    }
+    
+    .description {
+        grid-area: right;
+        align-items: center;
+        font-size: 18px;
+        line-height: 30px; 
+        color: rgb(98, 128, 94); 
+        letter-spacing: none;   
+    } 
+    
+    #skills {
+        padding: 40px 0 40px;
+    }
+    
+    #contact {
+        padding-top: 40px;
+        background-color: rgb(25, 32, 25);
+    } 
+    
+    #contact img {
+        margin-bottom: 40px;
+    }
+
+    #extraMenu a {
+        font-size: 25px;
+        letter-spacing: 2px;
+        font-family: 'Abel', sans-serif;
+    }
+    
+    #extraMenu a:hover {    
+        color: rgb(227, 233, 236);   
+    }
+    
+    .extraDetails{
+        margin-top: 80px;
+    }
+    
+    .extraDetails p{
+        color: rgb(183, 206, 180); 
+        font-family: 'Abel', sans-serif; 
+        font-size: 40px;
+        letter-spacing: 2px;
+    }
+}
+   
