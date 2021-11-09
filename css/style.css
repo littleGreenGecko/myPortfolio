@@ -260,3 +260,50 @@ footer p {
         margin: 10px;
     }
 }
+
+
+/* For Large Laptops/ Desktops, 1100px and up */
+@media only screen and (min-width:1100px) {
+    .navbar {        
+        height: 100%;
+        width: 200px;
+        position: fixed;
+        z-index: 2;
+        background-color: rgb(25, 32, 25);
+        padding-top: 70px;
+        border-right: 1px solid  rgb(17, 247, 9);   
+    }
+    
+    .navbar #menu {
+        display:block;    
+    }
+    
+    .navbar a.menuIcon {
+        display: none;
+    }
+    
+    .navbar a {
+        font-size: 20px;
+        padding-bottom: 30px; 
+        color: rgb(17, 247, 9);   
+    }
+    
+    header {
+        margin-left: 200px;  
+        background-color: rgb(25, 32, 25); 
+    }
+    
+    h1 {
+       font-size: 7rem; 
+       letter-spacing: 5px;
+    }
+    
+    main, footer {
+        margin-left: 200px;
+        padding: 0 90px 0;    
+    }
+    
+    #about {   
+        width: 60%;
+        padding: 40px 0 40px;
+    }
