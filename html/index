@@ -14,7 +14,7 @@
 <body>
     <nav class="navbar">
         <a href="javascript:void(0);" class="menuIcon" onclick="navIcon()">
-            <img src="../css/images/menuIcon.png" alt="">
+            <img src="../css/images/menu.png" alt="">
         </a> 
         <div id="menu">                         
             <a href="#about">About</a>
@@ -37,17 +37,17 @@
                 <p>Scroll down to see my projects for Codecademy online course. Check also my code on <a class="github" href="https://github.com/littleGreenGecko " target="_blank">github.</a></p>
                 <div class="project">                     
                     <h3>Excursion Project</h3>                             
-                    <img  class="img" src="../css/images/excursionImg.png " alt="Picture of travel website" width="250px" height="400px">                                             
+                    <img  class="img" src="../css/images/excursion.png " alt="Picture of travel website" width="250px" height="400px">                                             
                     <p class="description">I've implemented the web page based on design mock and redline mock. I've used toolset including HTML, CSS, Command Line Interface, Git, and GitHub.</p>                                         
                 </div>
                 <div class="project">
                     <h3>Message Generator</h3>                   
-                    <img class="img" src="../css/images/jsLogo.png " alt="Picture of Java Script logo"  width="250px" height="400px">
+                    <img class="img" src="../css/images/js.png " alt="Picture of Java Script logo"  width="250px" height="400px">
                     <p class="description">The aim of this project was to learn how to build a program using JavaScript, Git version control and Command line.</p>                                         
                 </div>
                 <div class="project">
                     <h3>Revive Matcha</h3>                     
-                    <img class="img" src="../css/images/revivematchaImg.png " alt="Picture of matcha tea website"  width="250px" height="400px">         
+                    <img class="img" src="../css/images/revivematcha.png " alt="Picture of matcha tea website"  width="250px" height="400px">         
                     <p class="description">I've used flexbox to design and build the layout for a company’s homepage.</p>                             
                 </div>                           
             </section>
@@ -61,8 +61,8 @@
         <footer>
             <div id="contact">
                 <h2 >Contact</h2>
-                <a href="https://github.com/littleGreenGecko" target="_blank"><img src="../css/images/githubIcon.png "></a>
-                <a href="mailto:ewa.baker@yahoo.com?subject=Message from my portfolio"><img src=" ../css/images/emailIcon.png"></a>               
+                <a href="https://github.com/littleGreenGecko" target="_blank"><img src="../css/images/github.png "></a>
+                <a href="mailto:ewa.baker@yahoo.com?subject=Message from my portfolio"><img src=" ../css/images/email.png"></a>               
             </div>  
             <div><p>Handcrafted by Ewa Baker in 2021</p></div>  
         </footer>
