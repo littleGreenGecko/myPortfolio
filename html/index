@@ -26,4 +26,35 @@
         <header>
             <h1>Ewa Baker</h1>
             <p>Full Stack Web Developer</p>
-        </header>       
+        </header> 
+        <main>
+            <section id="about">
+                <h2 >About</h2>
+                <p>Hi I'm Ewa<br> Once I discovered the perfect marriage of logic and creativity in coding, I didn't look back and motivated myself to become a Web Developer. I've started an online course that covers all aspects of building modern websites and applications.<br>So far I've been working with front-end technologies.</p>
+            </section>
+            <section id="projects">             
+                <h2>Projects</h2> 
+                <p>Scroll down to see my projects for Codecademy online course. Check also my code on <a class="github" href="https://github.com/littleGreenGecko " target="_blank">github.</a></p>
+                <div class="project">                     
+                    <h3>Excursion Project</h3>                             
+                    <img  class="img" src="../css/images/excursionImg.png " alt="Picture of travel website" width="250px" height="400px">                                             
+                    <p class="description">I've implemented the web page based on design mock and redline mock. I've used toolset including HTML, CSS, Command Line Interface, Git, and GitHub.</p>                                         
+                </div>
+                <div class="project">
+                    <h3>Message Generator</h3>                   
+                    <img class="img" src="../css/images/jsLogo.png " alt="Picture of Java Script logo"  width="250px" height="400px">
+                    <p class="description">The aim of this project was to learn how to build a program using JavaScript, Git version control and Command line.</p>                                         
+                </div>
+                <div class="project">
+                    <h3>Revive Matcha</h3>                     
+                    <img class="img" src="../css/images/revivematchaImg.png " alt="Picture of matcha tea website"  width="250px" height="400px">         
+                    <p class="description">I've used flexbox to design and build the layout for a company’s homepage.</p>                             
+                </div>                           
+            </section>
+            <section>
+                <div id="skills">
+                    <h2 >My skills</h2>
+                    <p>I'm familiar with technologies such as HTML5, CSS3, JavaScript, Git and Github.</p>
+                </div>
+            </section> 
+        </main>      
