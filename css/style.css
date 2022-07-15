@@ -120,7 +120,8 @@ h2 {
     height: 200px;
     width: 100%;
     padding: 20px 30px;
-    color:rgb(127, 150, 124);   
+    color:rgb(127, 150, 124); 
+    overflow: auto;  
 }   
 
 .project h3:hover + .img {
@@ -351,7 +352,7 @@ footer p {
         font-size: 18px;
         line-height: 30px; 
         color: rgb(98, 128, 94); 
-        letter-spacing: none;   
+        letter-spacing: none;          
     } 
     
     #skills {
