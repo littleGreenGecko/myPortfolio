@@ -65,7 +65,7 @@ header {
 }
 
 h1 {
-    color: rgb(125, 58, 112);       
+    color: rgb(173, 47, 148);
     font-size: 5rem;   
     letter-spacing: 3px;   
 }
@@ -89,7 +89,7 @@ h2 {
 } 
 
 #about p::first-line {
-    color:rgb(17, 247, 9);
+    color: rgb(173, 47, 148);
     font-family: 'Abel', sans-serif;
     font-size: 18px;
 }
@@ -185,7 +185,7 @@ footer p {
 }
 
 .extraDetails h2 {
-    color: rgb(125, 58, 112); 
+    color: rgb(173, 47, 148);
     font-size: 40px;
 }
 
