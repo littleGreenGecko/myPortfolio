@@ -6,11 +6,21 @@ body {
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;    
-    background-color: rgb(25, 32, 25);
+    background-color: rgb(25, 32, 25);    
     color: rgb(98, 128, 94);
     letter-spacing: 1px;  
     opacity: 0.9; 
 } 
+
+@keyframes slide {
+    from {
+        margin-left: 100%;
+    }
+
+    to {
+        margin-left: 0%;
+    }
+}
 
 
 /* For Phones, max.600px and down */
@@ -61,22 +71,26 @@ header {
     text-align: center;
     margin-bottom: 5rem;
     padding: 5px 0 5px;
-    background-color: rgb(41, 49, 41);
+    background-color: rgb(41, 49, 41);    
 }
 
 h1 {
     color: rgb(173, 47, 148);
     font-size: 5rem;   
-    letter-spacing: 3px;   
+    letter-spacing: 3px;
+    animation-duration: 6s;
+    animation-name: slide;
 }
 
 header p {
-    color:rgb(150, 124, 147); 
-    font-size: 1.5rem;    
+    color:rgb(150, 124, 147);    
+    font-size: 1.5rem;
+    animation-duration: 7s;
+    animation-name: slide;
 }
 
 h2 {
-    color: rgb(127, 150, 124);   
+    color: rgb(127, 150, 124);    
     font-size: 2.5rem;      
     margin: 30px 0;
     padding-top: 15px;
@@ -118,7 +132,7 @@ h2 {
     height: 200px;
     width: 100%;
     padding: 20px 30px;
-    color:rgb(127, 150, 124); 
+    color:rgb(127, 150, 124);    
     overflow: auto;  
 }
 
@@ -158,6 +172,7 @@ footer p {
 } 
 
 .extraDetails{
+    margin-top: 60px;
     padding-top: 30px;
     text-align: center; 
     opacity: 0.9;   
@@ -171,10 +186,12 @@ footer p {
 .extraDetails h2 {
     color: rgb(173, 47, 148);
     font-size: 40px;
+    margin-bottom: 5px;
 }
 
 .extraDetails h3 {
-    padding-bottom: 20px;
+    margin-top: 5px;
+    margin-bottom: 60px;
     color: rgb(150, 124, 147);
 }
 
@@ -182,6 +199,7 @@ footer p {
     margin: 20px;
     padding: 10px;
     border: 1px solid rgb(17, 247, 9);
+    border-radius: 5px;
     background-color: rgb(41, 49, 41);
 }
 
@@ -235,15 +253,7 @@ footer p {
         font-size: 18px;
         letter-spacing: 1px;
         padding-bottom: 20px;
-    }
-    
-    .extraDetails {
-        margin-top: 30px;
-    }
-    
-    .extraDetails h2{
-        margin: 10px;
-    }
+    }     
 }
 
 
