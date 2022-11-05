@@ -6,8 +6,8 @@ body {
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;    
-    background-color: rgb(25, 32, 25);    
-    color: rgb(98, 128, 94);
+    background-color: rgb(15, 33, 58);    
+    color: rgb(161, 199, 186);
     letter-spacing: 1px;  
     opacity: 0.9; 
 } 
@@ -27,51 +27,49 @@ body {
 .navbar {
     overflow: hidden;
     position: fixed;
-    background-color: rgb(25, 32, 25);
-    width: 100%;   
+    background-color: rgb(17, 28, 43);
     top: 0;     
-    z-index: 2;   
+    z-index: 2;         
 }
 
 .navbar #menu {
     display: none;
-    text-align: center;        
+    text-align: center;            
 }
 
 .navbar a {
     display: block;      
     padding: 15px;
-    text-decoration: none;      
-    color: rgb(17, 247, 9);
-    background-color: rgb(25, 32, 25);
+    text-decoration-line: underline;      
+    color: rgb(10, 245, 167);
+    background-color: rgb(17, 28, 43);
     font-size: 30px; 
     font-family: 'Abel', sans-serif;  
 }
 
 .navbar a.menuIcon {
-    background-color: rgb(25, 32, 25);
+    background-color: rgb(15, 33, 58);
     display: block;    
     top: 0;
-    padding-right: 20px;
-    text-align: right;
+    padding-right: 20px;        
 }
 
 .navbar img {
-    border:2px solid rgb(17, 247, 9);
+    border:2px solid rgb(10, 245, 167);
     border-radius: 5px;
-    background-color: rgb(17, 247, 9);
+    background-color: rgb(10, 245, 167);
 }
 
 .navbar a:hover {    
     color: rgb(227, 233, 236);   
 }
- 
+
 header {
     margin-top: 10rem; 
     text-align: center;
     margin-bottom: 5rem;
     padding: 5px 0 5px;
-    background-color: rgb(41, 49, 41);    
+    background-color:rgb(17, 28, 43);
 }
 
 h1 {
@@ -89,8 +87,12 @@ header p {
     animation-name: slide;
 }
 
+h2::first-letter {
+    font-size: 6rem;
+}
+
 h2 {
-    color: rgb(127, 150, 124);    
+    color: rgb(10, 245, 167);
     font-size: 2.5rem;      
     margin: 30px 0;
     padding-top: 15px;
@@ -103,26 +105,26 @@ h2 {
 } 
 
 #about p::first-line {
-    color: rgb(173, 47, 148);
+    color: rgb(192, 71, 168);
     font-family: 'Abel', sans-serif;
     font-size: 18px;
 }
 
 .github {
     text-decoration: none;
-    color: rgb(17, 247, 9);
+    color:rgb(10, 245, 167);
 }
 
 .project {
     margin-top: 35px;    
     text-align: center; 
-    border: 1px solid  rgb(17, 247, 9);
+    border: 1px solid rgb(10, 245, 167);
     border-radius: 10px;
-    background-color:  rgb(41, 49, 41);   
+    background-color: rgb(28, 46, 71);
 } 
 
 .project h3 {    
-    color: rgb(150, 124, 147);
+    color: rgb(194, 108, 177);
     font-family:  'Abel', sans-serif;
     font-size: 25px;
     letter-spacing: 1px;
@@ -132,7 +134,7 @@ h2 {
     height: 200px;
     width: 100%;
     padding: 20px 30px;
-    color:rgb(127, 150, 124);    
+    color:rgb(161, 199, 186);
     overflow: auto;  
 }
 
@@ -145,9 +147,9 @@ h2 {
     margin-right: 20px;
     padding: 10px;
     opacity: 0.8;
-    border: 2px solid rgb(17, 247, 9);
+    border: 2px solid rgb(10, 245, 167);
     border-radius: 5px;
-    background-color: rgb(41, 49, 41);
+    background-color:rgb(17, 28, 43);
 }
 
 footer p {
@@ -166,7 +168,7 @@ footer p {
 #extraMenu a{ 
     text-decoration: none;   
     padding: 5px;  
-    color: rgb(17, 247, 9);
+    color: rgb(10, 245, 167);
     font-family: 'Abel', sans-serif;
     letter-spacing: 1px;
 } 
@@ -180,13 +182,14 @@ footer p {
 
 .extraDetails p {
     font-size: 25px;
-    color: rgb(183, 206, 180);
+    color: rgb(161, 199, 186);
 }
 
-.extraDetails h2 {
+.extraDetails h1 {
     color: rgb(173, 47, 148);
     font-size: 40px;
     margin-bottom: 5px;
+    animation: none;
 }
 
 .extraDetails h3 {
@@ -198,9 +201,9 @@ footer p {
 .extraDetails img{
     margin: 20px;
     padding: 10px;
-    border: 1px solid rgb(17, 247, 9);
+    border: 2px solid rgb(10, 245, 167);
     border-radius: 5px;
-    background-color: rgb(41, 49, 41);
+    background-color: rgb(17, 28, 43);
 }
 
 
@@ -223,6 +226,10 @@ footer p {
         font-size: 2rem;
     }
     
+    h2::first-letter {
+        font-size: 8rem;
+    }
+
     h2 {
         font-size: 3rem;
         padding-bottom: 10px;
@@ -247,6 +254,10 @@ footer p {
         height: 120px;      
     }
 
+    #contact {
+        padding-top: 80px;
+    }
+
     .extraMenu {        
         display: flex;
         justify-content: space-evenly;
@@ -264,9 +275,9 @@ footer p {
         width: 200px;
         position: fixed;
         z-index: 2;
-        background-color: rgb(25, 32, 25);
+        background-color: rgb(17, 28, 43);
         padding-top: 70px;
-        border-right: 1px solid  rgb(17, 247, 9);   
+        border-right: 1px solid rgb(10, 245, 167);
     }
     
     .navbar #menu {
@@ -280,18 +291,22 @@ footer p {
     .navbar a {
         font-size: 20px;
         padding-bottom: 30px; 
-        color: rgb(17, 247, 9);   
+        color: rgb(10, 245, 167);
     }
     
     header {
         margin-left: 200px;  
-        background-color: rgb(25, 32, 25); 
+        background-color: rgb(17, 28, 43);
     }
     
     h1 {
        font-size: 7rem; 
        letter-spacing: 5px;
     }
+
+    h2::first-letter {
+        font-size: 14rem;
+    }    
     
     main, footer {
         margin-left: 200px;
@@ -326,12 +341,11 @@ footer p {
     
     #skills {
         padding: 40px 0 40px;
-    }
-    
+    }    
+
     #contact {
-        padding-top: 40px;
-        background-color: rgb(25, 32, 25);
-    } 
+        padding-top: 140px;
+    }
     
     #contact img {
         margin-bottom: 40px;
@@ -352,10 +366,9 @@ footer p {
     }
     
     .extraDetails p{
-        color: rgb(183, 206, 180); 
+        color: rgb(161, 199, 186);
         font-family: 'Abel', sans-serif; 
         font-size: 40px;
         letter-spacing: 2px;
     }
 }
-   
